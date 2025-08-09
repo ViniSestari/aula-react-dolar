@@ -7,6 +7,8 @@ import Layout from './pages/Layout.jsx';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import NoPage from './pages/NoPage';
+import Centimetros from './pages/Centimetros';
+import Metros from './pages/Metros';
 
 
 
@@ -17,7 +19,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="sobre" element={<Sobre />} />
+          <Route path='centimetros' element={<Centimetros />} />
+          <Route path='metros' element={<Metros />} />
+          <Route path='sobre' element={<Sobre />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

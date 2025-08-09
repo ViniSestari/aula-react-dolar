@@ -1,8 +1,8 @@
 import { Outlet, Link } from "react-router-dom";
-import Titulo from '../Titulo';
-import Rodape from '../Rodape';
-import Menu from '../Menu';
-import Banner from '../Banner';
+import Titulo from '../components/Titulo';
+import Rodape from '../components/Rodape';
+import Menu from '../components/Menu';
+import Banner from '../components/Banner';
  
 function Layout() {
     return (
